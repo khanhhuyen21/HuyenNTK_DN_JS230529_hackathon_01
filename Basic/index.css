@@ -23,8 +23,9 @@ body {
 main img {
   width: 100%;
   border: 1px solid white;
-  height: 300px;
-  object-fit: contain;
+  border-top: 5px solid orange;
+  height: 250px;
+  object-fit: cover;
 }
 .album {
   display: grid;
