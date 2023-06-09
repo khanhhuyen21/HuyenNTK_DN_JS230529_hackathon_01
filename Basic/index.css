@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+body {
+  padding: 300px;
+}
+#header-content {
+  padding: 15px;
+  background-image: url(../Basic/images/beach3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+.content {
+  box-sizing: 70px;
+  background-color: rgba(176, 119, 14, 0.4);
+  width: 500px;
+  text-align: left;
+  position: absolute;
+}
+main img {
+  width: 100%;
+  border: 1px solid white;
+  height: 300px;
+  object-fit: contain;
+}
+.album {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  background-color: white;
+}
+figcaption {
+  font-weight: 100;
+  text-align: left;
+  padding: 3px;
+}
+p {
+  text-align: left;
+  padding: 10px;
+}
